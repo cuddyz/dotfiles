@@ -1,0 +1,60 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": -1,
+    "eslint.autoFixOnSave": true,
+    "eslint.options": {
+        "extensions": [
+            ".js",
+            ".vue"
+        ]
+    },
+    "eslint.validate": [
+        "javascript",
+        {
+            "language": "vue",
+            "autoFix": true
+        },
+        {
+            "language": "html",
+            "autoFix": true
+        },
+        "html",
+        "vue"
+    ],
+    "vetur.experimental.templateInterpolationService": false,
+    "workbench.colorTheme": "Panda Syntax",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+            "scope": [
+                "comment",
+                "entity.name.type.class",
+                "keyword",
+                "constant",
+                "storage.modifier",
+                "storage.type.class.js",
+            ],
+            "settings": {
+                "fontStyle": "italic"
+            }
+            },
+            {
+            "scope": [
+                "invalid",
+                "keyword.operator",
+                "constant.numeric.css",
+                "keyword.other.unit.px.css",
+                "constant.numeric.decimal.js",
+                "constant.numeric.json"
+            ],
+            "settings": {
+                "fontStyle": ""
+            }
+            }
+        ]
+    },
+    "editor.fontFamily": "\"FiraFlott\"",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "zenMode.centerLayout": false
+}
