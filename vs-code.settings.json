@@ -26,35 +26,36 @@
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
-            "scope": [
-                "comment",
-                "entity.name.type.class",
-                "keyword",
-                "constant",
-                "storage.modifier",
-                "storage.type.class.js",
-            ],
-            "settings": {
-                "fontStyle": "italic"
-            }
+                "scope": [
+                    "comment",
+                    "entity.name.type.class",
+                    "keyword",
+                    "constant",
+                    "storage.modifier",
+                    "storage.type.class.js",
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
             },
             {
-            "scope": [
-                "invalid",
-                "keyword.operator",
-                "constant.numeric.css",
-                "keyword.other.unit.px.css",
-                "constant.numeric.decimal.js",
-                "constant.numeric.json"
-            ],
-            "settings": {
-                "fontStyle": ""
-            }
+                "scope": [
+                    "invalid",
+                    "keyword.operator",
+                    "constant.numeric.css",
+                    "keyword.other.unit.px.css",
+                    "constant.numeric.decimal.js",
+                    "constant.numeric.json"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
             }
         ]
     },
     "editor.fontFamily": "\"FiraFlott\"",
     "editor.fontLigatures": true,
     "editor.fontSize": 14,
-    "zenMode.centerLayout": false
+    "zenMode.centerLayout": false,
+    "editor.formatOnSave": true
 }
