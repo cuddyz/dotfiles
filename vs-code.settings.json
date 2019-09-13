@@ -56,6 +56,5 @@
     "editor.fontFamily": "\"FiraFlott\"",
     "editor.fontLigatures": true,
     "editor.fontSize": 14,
-    "zenMode.centerLayout": false,
-    "editor.formatOnSave": true
+    "zenMode.centerLayout": false
 }
